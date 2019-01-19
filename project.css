@@ -1,0 +1,171 @@
+/*
+* Jasmine Middaugh
+* 18 January 2019
+* Final Project and Web Page about Victoria Woodhull
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body attributes here */
+
+body {
+    width: 90%;
+    background-color: aliceblue;
+    margin: 15px auto;
+    border: 2px solid black;
+}
+
+/* these are my headings with the sizing and color for the page */
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    color: hotpink;
+}
+
+h2 {
+    text-align: left;
+    font-size: 2em;
+    padding: 10px;
+    color: hotpink;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h4 {
+    text-align: left;
+    font-size: 1.5em;
+    padding: 10px;
+    text-decoration: underline;
+    color: hotpink;
+}
+
+/* these are the attributes for my header */
+
+header {
+    border-bottom: 2px solid black;
+    padding: 15px
+}
+
+/* first sidebar attributes */
+
+#sidebarA {
+    height: 1595px;
+    width: 25%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+/* text attributes for my content within each column */
+
+p1 {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    color: skyblue;
+}
+
+p2 {
+    color:black;
+}
+
+p5 {
+    float: right;
+    color: blue;
+}
+
+p4 {
+    padding: 10px;
+}
+
+/* images and their sizing and detail throughout the page */
+
+#familyportrait {
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+}
+
+#Woodhull {
+    border: 1px solid black;
+    margin: 5px;
+    height: 175px;
+    width: 125px;
+    margin: 10px;
+}
+
+#Victoria {
+    border: 1px solid black;
+    margin: 15px;
+    height: 180px;
+    width: 130px;
+    float: left;
+}
+
+#VW {
+    border: 1px solid black;
+    margin: 15px;
+    height: 175px;
+    width: 200px;
+    float: right;
+}
+
+#FirstWomanPresRun {
+    border: 1px solid black;
+    margin: 15px;
+    height: 250x;
+    width: 200px;
+    float: right;
+}
+
+#Nomination {
+    border: 1px solid black;
+    margin: 15px;
+    height: 125px;
+    width: 175px;
+}
+
+#President {
+    border: 1px solid black;
+    margin: 15px;
+    height: 180px;
+    width: 130px;  
+}
+
+/* main section with its attributes */
+
+main {
+    height: 1575px;
+    width: 47%;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* second sidebar attributes */
+
+#sidebarB {
+    height: 1595px;
+    width: 25%;
+    float: right;
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+/* this is where my sources are */
+
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
